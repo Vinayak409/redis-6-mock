@@ -1,0 +1,4 @@
+Get-History | Select-String -Pattern "redis-6-test"
+
+// build for windows machine 
+pkg index.js --targets node16-win-x64 --output redis-6-test.exe
